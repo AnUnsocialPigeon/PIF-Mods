@@ -29,7 +29,7 @@ fi
 
 # Load initial mods
 mkdir -p "KIF/Mods/998_Mods"
-find Mods -maxdepth 1 -mindepth 1 ! -name 'Load_Last' -exec cp -r {} KIF/Mods/998_Mods/ \;
+find Mods -maxdepth 1 -mindepth 1 ! -name 'Load_Last' ! -name 'ModData' ! -name 'Release' -exec cp -r {} KIF/Mods/998_Mods/ \;
 # cp -r vendor "KIF/Mods/998_Mods/vendor"  # Copy vendor dependencies into the Mods folder
 
 echo "Imported mods"

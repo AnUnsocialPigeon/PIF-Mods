@@ -1,5 +1,3 @@
-require 'thread'
-
 module MMO
   class OnlinePlayer
     attr_accessor :guid, :id, :map_id, :x, :y
