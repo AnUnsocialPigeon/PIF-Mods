@@ -1,0 +1,33 @@
+# The games
+PIF/
+KIF/
+
+# I have goldfish brain, can't remember where save files are saved :)
+saveFileLocation.txt
+
+# Environment vars
+.env
+node_modules
+build
+venv
+vendor/stdlib
+
+# Injections of ruby bundlers
+.bundle/
+vendor/
+
+ExtractedScripts/
+tools/
+
+# My bad ideas and their consequences...
+Gemfile*
+injector_old.py
+script_load_debug.txt
+Unloaded_Mods/
+
+# Release versions (dupes)
+Mods/Release
+
+# Follower EX
+Mods/Follower_EX
+Mods/ModData/Animation Data
